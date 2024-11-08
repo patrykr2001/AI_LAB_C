@@ -1,0 +1,84 @@
+.puzzle-piece {
+    position: absolute;
+    cursor: move;
+}
+
+.drop-zone {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2px;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(5, 100px);
+}
+
+#start-zone div {
+    border: 2px solid #ccc;
+}
+
+#start-zone div:nth-child(1) {
+    margin-left: 0px;
+}
+
+#start-zone div:nth-child(2) {
+    margin-left: 28px;
+}
+
+#start-zone div:nth-child(3) {
+    margin-left: 56px;
+}
+
+#start-zone div:nth-child(4) {
+    margin-left: 84px;
+}
+
+#start-zone div:nth-child(5) {
+    margin-left: 112px;
+}
+
+#start-zone div:nth-child(6) {
+    margin-left: 140px;
+}
+
+#start-zone div:nth-child(7) {
+    margin-left: 168px;
+}
+
+#start-zone div:nth-child(8) {
+    margin-left: 196px;
+}
+
+#start-zone div:nth-child(9) {
+    margin-left: 224px;
+}
+
+#start-zone div:nth-child(10) {
+    margin-left: 252px;
+}
+
+#start-zone div:nth-child(11) {
+    margin-left: 280px;
+}
+
+#start-zone div:nth-child(12) {
+    margin-left: 308px;
+}
+
+#start-zone div:nth-child(13) {
+    margin-left: 336px;
+}
+
+#start-zone div:nth-child(14) {
+    margin-left: 364px;
+}
+
+#start-zone div:nth-child(15) {
+    margin-left: 392px;
+}
+
+#start-zone div:nth-child(16) {
+    margin-left: 420px;
+}
